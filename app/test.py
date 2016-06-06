@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 ' a test module '
-image_list_path="/Users/foresummer/trypython/app/static/imagelist.txt"
+image_list_path="/Users/foresummer/git/show_query_result/app/static/imagelist.txt"
 image_folder_path="/static/"
 
 def just_for_fun(query):

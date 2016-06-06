@@ -3,7 +3,7 @@ from flask import request
 from app import app
 import test
 
-defaultpath = '/Users/foresummer/trypython/app'
+defaultpath = '/Users/foresummer/git/show_query_result/app'
 
 @app.route('/')
 @app.route('/index')
