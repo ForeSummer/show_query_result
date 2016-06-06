@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ADS Project2</title>
+    <link type="text/css" rel="stylesheet" href="/static/font-awesome.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/static/semantic.min.css">
+    <link type="text/css" rel="stylesheet" href="/static/index.css"/>
+    <script type="text/javascript" src="/static/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="/static/semantic.min.js"></script>
+    <script type="text/javascript" src="/static/index.js"></script>
+  </head>
+  <body>
+  	<div class="result-container">
+  		<div class="query area">
+  			<h3 class="ui header" style="text-align: left;margin-left: 20px;font-size: 25px">Query:</h3>
+  			<div class="ui section divider"></div>
+  			<div class="queryimg">
+  				<img style="width: 300px"  src="{{query_url}}"/>
+  			</div>
+  		</div>
+  		<div class="type area">
+  			<h3 class="ui header" style="text-align: left;margin-left: 20px;font-size: 25px">Type:</h3>
+  			<div class="ui section divider"></div>
+  			<div class="type" style="margin-top: 60px">
+  				<label>{{query_type}}</label>
+  			</div>
+  		</div>
+  		<div class="result area">
+  			<h4 class="ui horizontal divider header title">
+				  Top 10 Related Images:
+				</h4>
+  			<div class="ui grid">
+  				<div class="two wide column index">1</div>
+  				<div class="six wide column"><img style="width: 200px" src="{{result1_url}}" /></div>
+  				<div class="two wide column index">2</div>
+  				<div class="six wide column"><img style="width: 200px" src="{{result2_url}}" /></div>
+  				<div class="two wide column index">3</div>
+  				<div class="six wide column"><img style="width: 200px" src="{{result3_url}}" /></div>
+  				<div class="two wide column index">4</div>
+  				<div class="six wide column"><img style="width: 200px" src="{{result4_url}}" /></div>
+  				<div class="two wide column index">5</div>
+  				<div class="six wide column"><img style="width: 200px" src="{{result5_url}}" /></div>
+  				<div class="two wide column index">6</div>
+  				<div class="six wide column"><img style="width: 200px" src="{{result6_url}}" /></div>
+  				<div class="two wide column index">7</div>
+  				<div class="six wide column"><img style="width: 200px" src="{{result7_url}}" /></div>
+  				<div class="two wide column index">8</div>
+  				<div class="six wide column"><img style="width: 200px" src="{{result8_url}}" /></div>
+  				<div class="two wide column index">9</div>
+  				<div class="six wide column"><img style="width: 200px" src="{{result9_url}}" /></div>
+  				<div class="two wide column index">10</div>
+  				<div class="six wide column"><img style="width: 200px" src="{{result10_url}}" /></div>
+  			</div>
+  		</div>
+  		<div class="ui animated button return" tabindex="0">
+				<div class="visible content">Search Again!</div>
+				<div class="hidden content">
+				  (oﾟωﾟo)
+				</div>
+			</div>
+  	</div>
+  </body>
+</html>

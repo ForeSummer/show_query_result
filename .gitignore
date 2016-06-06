@@ -1,1 +1,3 @@
-*.JEPG
+*.JPEG
+*.py~
+*.pyc
